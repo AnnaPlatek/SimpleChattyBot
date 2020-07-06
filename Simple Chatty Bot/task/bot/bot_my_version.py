@@ -24,4 +24,18 @@ while i <= number:
     i += 1
 
 print("Let's test your programming knowledge.")
+print("Why do we use methods?")
+print("1. To repeat a statement multiple times.")
+print("2. To decompose a program into several small subroutines.")
+print("3. To determine the execution time of a program.")
+print("4. To interrupt the execution of a program.")
 
+user_answer = int(input())
+while True:
+    if user_answer == 2:
+        print("Completed, have a nice day!")
+        print("Congratulations, have a nice day!")
+        break
+    else:
+        print("Please, try again.")
+        user_answer = int(input())
